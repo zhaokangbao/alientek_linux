@@ -3,6 +3,8 @@
  *
  * Configuration settings for the Freescale i.MX6UL 14x14 EVK board.
  *
+ * 添加开发板对应的头文件
+ * 
  * SPDX-License-Identifier:	GPL-2.0+
  */
 #ifndef __MX6ULL_ALIENTEK_EMMC_CONFIG_H
