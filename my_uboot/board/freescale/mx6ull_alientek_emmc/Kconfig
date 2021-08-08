@@ -1,3 +1,6 @@
+ # 添加开发板对应的板级文件夹，是该目录下的整个文件夹的修改
+ # 本文件为修改的Kconfig文件
+
 if TARGET_MX6ULL_ALIENTEK_EMMC
 
 config SYS_BOARD

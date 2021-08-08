@@ -1,6 +1,9 @@
 /*
  * Copyright (C) 2016 Freescale Semiconductor, Inc.
  *
+ * 添加开发板对应的板级文件夹，是该目录下的整个文件夹的修改
+ * 本文件为板级文件夹下的c文件
+ *
  * SPDX-License-Identifier:	GPL-2.0+
  */
 
