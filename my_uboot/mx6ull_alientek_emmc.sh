@@ -13,4 +13,4 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_alientek_emmc_defconfig
 # -j12 表示使用12核编译
 # 编译完成生成u-boot.bin文件，但是不能直接烧写进入芯片，需要添加头部信息
 # uboot编译最后会通过/tools/mkimage软件添加头部信息，生成u-boot.imx文件，烧写该文件
-make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j16
+make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j12
