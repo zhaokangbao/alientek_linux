@@ -17,10 +17,10 @@
 struct display_info_t {
 	int	bus;
 	int	addr;
-	int	pixfmt;
+	int	pixfmt;												//像素格式，表示一个像素点是多少位，RGB565就是16位
 	int	(*detect)(struct display_info_t const *dev);
 	void	(*enable)(struct display_info_t const *dev);
-	struct	fb_videomode mode;
+	struct	fb_videomode mode;								//LCD的参数
 };
 
 #ifdef CONFIG_IMX_HDMI

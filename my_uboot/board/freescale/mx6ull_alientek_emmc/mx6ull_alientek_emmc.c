@@ -714,7 +714,7 @@ struct display_info_t const displays[] = {{
 		.name			= "TFT7016",
 		.xres           = 1024,
 		.yres           = 600,
-		.pixclock       = 19531,
+		.pixclock       = 19531,	//正点原子这个7寸1024*600分辨率的屏幕要求像素时钟为51.2MHz pixclock=(1/51200000)*10^12=19531
 		.left_margin    = 140,		//HBPD
 		.right_margin   = 160,		//HFPD
 		.upper_margin   = 20,		//VBPD
