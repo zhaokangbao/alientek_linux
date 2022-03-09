@@ -204,7 +204,7 @@ config TARGET_MX6ULL_9X9_EVK
 	select DM
 	select DM_THERMAL
 
-//添加u-boot图形界面配置
+#添加u-boot图形界面配置
 config TARGET_MX6ULL_ALIENTEK_EMMC
 	bool "Support mx6ull_alientek_emmc"
 	select MX6ULL
